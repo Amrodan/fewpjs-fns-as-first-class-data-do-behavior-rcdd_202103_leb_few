@@ -22,4 +22,4 @@ function greet(timeString){
 function displayMessage(testContent){
   document.getElementById("greeting").innerText = testContent;
 }
-displayMessage(testContent);
+displayMessage(greet());
